@@ -1,0 +1,17 @@
+{
+  "name": "namegame",
+  "version": "1.0.0",
+  "description": "The Name Game sample app for WT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vannuysm/TheNameGame.git"
+  },
+  "author": "Matt VanNuys",
+  "bugs": {
+    "url": "https://github.com/vannuysm/TheNameGame/issues"
+  },
+  "homepage": "https://github.com/vannuysm/TheNameGame#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

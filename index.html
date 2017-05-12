@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Name Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700" rel="stylesheet" type="text/css">
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <section id="app">
+            <header id="game-board-header"></header>
+            <article id="game-board"></article>
+
+            <div id="game-actions">
+                <button type="button" class="play-again">Play Standard Mode</button>
+                <button type="button" class="play-again" data-game-mode="mat*">Play Mat(t) Mode</button>
+                <button type="button" class="play-again" data-game-mode="team">Play Team Mode</button>
+            </div>
+        </section>
+
+        <template id="template-selected">
+            <h1>Who is <span class="selected-name"></span>?</h1>
+        </template>
+
+        <template id="template-profile">
+            <div class="profile">
+                <span class="number"></span>
+                <div class="overlay"></div>
+                <img src="">
+                <h2 class="name"></h2>
+            </div>
+        </template>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
